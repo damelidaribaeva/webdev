@@ -3,15 +3,117 @@
     <head>
         <meta charset="utf-8">
         <title>The best detectives:selection</title>
+        <style>
+             body {
+            font-size: 15px;
+        }
+        h1, h2{
+            font-family: cursive;
+        }
+            h2 {
+                color :rgb(22, 10, 10);
+                font-size: 1.5em;
+            }
+            body{
+                background-color : rgb(231, 229, 238);
+            }
+
+            .genre {
+            color: rgb(41, 61, 7);
+            font-family: "monospace","fantasy";      
+      }
+        
+        #detectives-heading {
+            background-color: rgb(191, 99, 191);
+        }
+        #Holmes{
+            text-decoration: underline;
+            width: 700px;
+            margin:auto;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .poem{
+            background-color: rgb(107, 107, 204);
+            font-style: italic;
+            text-align: center;
+            font-family: monospace;
+        }
+        .det{
+            color:beige;
+        }
+        #table{
+            background-color: blanchedalmond;
+            margin:auto;
+            border: 1px solid rgb(7, 19, 7);
+        }
+        #main-info{
+            height:170px;
+            width: 98%;
+            overflow: scroll;
+            border: 2px dashed rgb(69, 69, 73);
+            padding: 5px;
+        }
+        #container{
+            width:1000px;
+            margin: auto;
+            border: 1px solid rgb(7, 19, 7);
+            border-top: 10px solid rgb(114, 26, 26);
+        }
+        #photo{
+            border: 6px double black;
+            float:left;
+            margin-right: 8px;
+        }
+        #poirot{
+            position:absolute;
+            top:678px;
+            left:270px;
+        }
+        #movie{
+            float:right;
+            width: 30%;
+        }
+        #ch{
+            width:50%;
+        }
+       .text{
+        border-top: 1px solid rgb(134, 119, 119);
+                border-bottom: 1px solid rgb(134, 119, 119);
+                padding-top: 6px;
+                padding-bottom: 6px;
+                width:700px;
+                margin:auto;
+                text-align: center;
+       }
+       .edgar{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        background-color: black;
+        color:aliceblue;
+       }
+       p.edgar {
+                border: 5px solid orange;
+            }
+            li {
+                line-height: 1.4em;
+            }
+
+
+        </style>
     </head>
     <body>
 
-    <h1>All about detectives!</h1>
-    <img src="https://www.librarypoint.org/wp-content/uploads/sites/60/2018/04/ThinkstockPhotos-513541610.jpg" width="200">
-    <p> 
-        The detective genre features narratives centered on crime-solving and mystery. It showcases astute investigators unraveling complex cases through keen observation and deductive reasoning. Popularized by characters like Sherlock Holmes and Hercule Poirot, the genre combines suspense, intrigue, and intellectual challenge, captivating audiences with tales of justice and clever resolution.
-    </p>
-    <h2><em>Books</em></h2>
+   <div id="container"> <h1 id="detectives-heading"> All about <span class="det"> detectives! </span></h1>
+    <div id="main-info"> <img id="photo" src="https://www.librarypoint.org/wp-content/uploads/sites/60/2018/04/ThinkstockPhotos-513541610.jpg" width="200">
+    <p class="genre"> 
+        The detective genre features narratives centered on crime-solving and mystery. It showcases astute investigators unraveling complex cases through keen observation and deductive reasoning. Popularized by characters like Sherlock Holmes and Hercule Poirot, the genre combines suspense, intrigue, and intellectual challenge, captivating audiences with tales of justice and clever resolution. <br>
+        Detectives are skilled investigators specializing in solving crimes and mysteries. They gather and analyze evidence, interview witnesses, and follow leads to uncover the truth. Often working for police departments or as private investigators, detectives use critical thinking, attention to detail, and knowledge of criminal behavior to solve cases. Famous fictional detectives like Sherlock Holmes and Hercule Poirot have popularized their profession, showcasing their deductive prowess. Real-life detectives play a crucial role in maintaining law and order, bringing criminals to justice, and providing closure to victims and their families. Their work often involves collaboration with other law enforcement agencies and experts.
+     </p>
+     </div>
+     
+    <h2 id="detectives-books"><em>Books</em></h2>
     
     <ul>
         <li>"Murder on the Orient Express"</li>
@@ -20,15 +122,69 @@
     
     
     </ul> 
+    <div id="table">
+  <table>
+    <thead>
+        <tr>
+            <th>Book name</th>
+            <th>Author</th>
+            <th>Main character</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Murder on the Orient Express</td>
+            <td>Agatha Cristie</td>
+            <td id="ch">Ratchett, Hercule Poirot</td>
+        </tr>
+
+        <tr>
+            <td>And then there were none</td>
+            <td>Agatha Cristie</td>
+            <td id="ch">Brent Emili, Marston Enthony</td>
+        </tr>
+
+        <tr>
+            <td>Death on the Nile</td>
+            <td>Agatha Cristie</td>
+            <td id="ch">Hercule Poirot, Jacquelline Bellefort, Rosali Otterbourne</td>
+        </tr>
+    </tbody>
+  </table>
+  </div>
+   <div id="movie"> <a href="https://www.imdb.com/title/tt7657566/">Watch movie "Death On the Nile"</a> </div>
     
     <h2><em> Movies</em> </h2>
-        <ul>
-      <li>"Girl on the train"</li>
+<ul>
+        <li>"Girl on the train"</li>
         <li>"Substitution"</li>
-        <li>"Sherlock Holmes"</li>
+        <li><a href="#Holmes">"Sherlock Holmes"</a></li>
+</ul>
+    <!--This poem was from https://hellopoetry.com/words/detective/-->
+    <p class="poem"> Another morning in the life <br>
+        Of a P.T.D, I slurped my <br>
+        Juice back all  400 ml, then<br>
+        Stretched up, fingers<br>
+        Wiggling as mother picked Me up. <br>
+        <br>        
+        Snuggles in the morning<br>
+        Nothing better, to show I'm<br>
+        Loved. But back to business,<br>
+        As I turned my dummy to<br>
+        The opposite side, the taste<br>
+        Is better every time its turned<br>
+        Soothing with each ****.
+    </p>
+    <h2 id="Holmes">Sherlock Holmes</h2>
     
-    
-    </ul> 
-
+    <p class="text"> 
+            Sherlock Holmes, created by Sir Arthur Conan Doyle, is a legendary detective known for his brilliant deductive skills and keen observation. Residing at 221B Baker Street, he solves intricate cases with his companion Dr. Watson. Holmes' iconic intellect and methodical approach have made him a timeless figure in detective fiction.
+    </p>
+    <img id="poirot" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOzDbZGi2Qlx4k6sImEwMDID5b-FwjsXZY6A&s" width="140" >
+    <p class="edgar">
+        The first detective story was written in 1841 by Edgar Allan - "Murder in the Rue Morgue".
+    </p>
+</div>
     </body>
 </html>
