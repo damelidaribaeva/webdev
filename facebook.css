@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    outline:none;
+}
+body{
+    width:100%;
+    background-color: rgb(211, 211, 196);
+}
+form{
+    background-color: aliceblue;
+    position:absolute;
+    width:320px;
+    height:260px;
+    padding: 10px 5px 20px 5px;
+    margin: -10vh 850px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px -7px;
+}
+input[type='text'], input[type='password']{
+    display: block;
+    background-color: white;
+    margin:auto;
+    border:1.5px solid rgb(92, 180, 244);
+    width:200px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color:black;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
+button{
+    border:none;
+    background-color: rgb(10, 113, 216);
+    color: white;
+    margin: auto;
+    width: 283px;
+    display:block;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.f-pws{
+    display: block;
+    width: 200px;
+    color:rgb(42, 29, 113);
+    padding-left: 100px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.line{
+    border-top: 1px solid black;
+    opacity: 0.5;;
+}
+.bnt2{
+    width:180px;
+    font-size: 14px;
+    background-color: green;
+    text-align: center;
+}
+.sub-link h3{
+    width:270px;
+    position:relative;
+    color: black;
+    font-family: "Segoe UI", Arial;
+    padding: 120px 910px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.sub-link h3 a{
+    color:black;
+    font-weight: bold;
+    font-size: 13px;
+}
+.f-container{
+    width:350px;
+    margin-left: 300px;
+    margin-top: 30vh;
+    font-family: "Segoe UI", Roboto, "San Francisco";
+}
+.f-container img{
+    width: 250px;
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing:3px;
+    margin-top: 5px;
+}
+ul{    
+    margin-left: -40px;
+    color: inherit;    
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    color: #737373;
+    padding-right: 20px;
+}
+li a {
+    text-decoration: none;
+}
+#line2 {
+    border: none;
+    height: 0.5px;
+    background-color: #a5a8abbf;
+}
+#links a:visited, #copyright {
+    color: #737373;
+}
+#links ul li {
+    padding-right: 10px;
+}
+#links{
+    margin: 0 275px;
+    font-size: 12px;
+    padding-top: 20px;
+    line-height: 20px;
+}
+#bottom-links{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
